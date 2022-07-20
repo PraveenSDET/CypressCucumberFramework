@@ -1,0 +1,19 @@
+{
+    "testFiles": "**/*.feature",
+    "ignoreTestFiles": "*.js",
+    "reporter": "junit",
+    "reporterOptions": {
+        "mochaFile": "testResults/xmlReports/results-[hash].xml"
+    },
+    "baseUrl": "https://www.tutorialspoint.com/selenium/selenium_automation_practice.htm",
+    "screenshotsFolder": "testResults/screenshots",
+    "videosFolder": "testResults/videos",
+    "env": {
+        "qaUrl": "https://www.tutorialspoint.com/selenium/selenium_automation_practice.htm",
+        "stageUrl": "",
+        "baseUri": "",
+        "allure": true,
+        "allureResultsPath": "testResults/allureJson",
+        "TAGS": "@demouitest"
+    }
+}
